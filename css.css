@@ -115,7 +115,8 @@ table {
     width: 100%;
     height: 600px;
     background-color: #FC7240;
-    background-image: url(https://thumbs2.imgbox.com/c5/d3/mfFhCOZq_t.jpg);
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
 }
 
 .conteudoContainer {
@@ -131,6 +132,7 @@ table {
     font-size: 3rem;
     line-height: 3.2rem;
     color: #FC7240;
+    text-shadow: #393836 0.1em 0.1em 0.8em
 }
 
 .conteudoContainer h3 {
@@ -257,7 +259,7 @@ table {
 
 #avisos .img-user {
     max-height: 800px;
-    margin: 59px 0 0 -50px;
+    margin: 100px 0 0 -50px;
 }
 
 #avisos img {
@@ -281,18 +283,13 @@ table {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     font-weight: 500;
     padding-right: 50px;
+    padding-bottom: 40px;
 }
 
-#avisos .posicao-3 {
-    margin-top: -134px;
-}
 
-#avisos .posicao-4 {
-    margin-top: -144px;
-}
 
-.containerQuadroAvisosAviso1 {
-    margin: -104px 50px 0 90px;
+#avisos .ajuste {
+    margin: 0 0 0 50px;
 }
 
 #avisos .titulo {
@@ -998,6 +995,10 @@ footer h2 {
     }
 
     .container-principal h2 {
-        text-shadow: #393836 0.1em 0.1em 0.2em
+        text-shadow: #393836 0.1em 0.1em 0.8em
+    }
+    
+    .conteudoContainer {
+        width: 75vw;
     }
 }
